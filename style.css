@@ -6,13 +6,15 @@
     font-family: sans-serif;
 }
 
+/* inizio nav */
+
 nav {
     position: fixed;
     left: 0px;
     right: 0px;
 }
 
-nav .container {
+nav .container-nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -45,6 +47,23 @@ nav .container {
     gap: 10px;
 }
 
-#menu a path{
+#menu a path {
     fill: white;
+}
+
+/* fine nav */
+
+/* inizio main */
+
+main .container-main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    padding-top: 130px;
+    gap: 20px;
+}
+
+.inserction img {
+    height: 650px;
 }
