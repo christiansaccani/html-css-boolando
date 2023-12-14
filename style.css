@@ -10,6 +10,7 @@
 
 nav {
     position: fixed;
+    z-index: 10;
     left: 0px;
     right: 0px;
 }
@@ -64,6 +65,51 @@ main .container-main {
     gap: 20px;
 }
 
+.inserction {
+    position: relative;
+}
+
 .inserction img {
     height: 650px;
 }
+
+.inserction .brand {
+    font-size: 12px;
+}
+
+.inserction .clt {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.inserction .price {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.inserction .price span {
+    color: black;
+    text-decoration: line-through;
+    font-weight: normal;
+}
+
+/* BOXES */
+
+.heartbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 10px;
+    right: 0px;
+
+    height: 50px;
+    width: 50px;
+
+    background-color: white;
+    font-size: 35px;
+}
+
+
