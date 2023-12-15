@@ -67,7 +67,7 @@ main .container-main {
     padding-top: 130px;
     margin: auto auto 60px;
     gap: 50px 20px;
-    
+
     max-width: 1410px;
 }
 
@@ -78,7 +78,7 @@ main .container-main {
 .inserction .main-img {
     height: 650px;
     width: 450px;
-    z-index: 1;
+    opacity: 1;
 }
 
 .inserction .b-img {
@@ -88,9 +88,9 @@ main .container-main {
 
     height: 650px;
     width: 450px;
-    z-index: -1;
+    opacity: 0;
 
-    opacity: 0.6;
+    opacity: 0;
     transition: 0.3s;
 }
 
@@ -235,7 +235,6 @@ footer .container-footer {
 /* inizio hover */
 
 .inserction:hover .b-img {
-    z-index: 2;
     opacity: 1;
 }
 
