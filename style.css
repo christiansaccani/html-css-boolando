@@ -124,6 +124,7 @@ main .container-main {
     height: 50px;
     width: 50px;
 
+    border: none;
     background-color: white;
     font-size: 35px;
 }
